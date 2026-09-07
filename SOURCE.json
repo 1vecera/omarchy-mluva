@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/1vecera/Mluva",
+  "release": "v0.1.1",
+  "commit": "3f0d62c72353d7f5e52ded52f29af03710f8823c",
+  "directory": "linux/quickshell/mluva.dictation",
+  "sha256": {
+    "manifest.json": "eed2719d17f69f994528e2576baf2e03f263a86e71647de08c8bb7768c1dec4a",
+    "Widget.qml": "4e82de92f2f0e1e8caa6290849b926f10bc858a692d99d094f51715f9ab5de07",
+    "RecordingOverlay.qml": "2b40dd25d66c48b795a5cb64a247127eb2d72033d7f2b65a776330542ff06aff",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+}
