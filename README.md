@@ -18,7 +18,7 @@ omarchy plugin add https://github.com/1vecera/omarchy-mluva.git --enable
 
 The plugin needs Omarchy's Quickshell shell and the `mluva-shell` executable installed by Mluva. If the shell cannot find that command, set the widget's **Mluva shell executable** setting to the absolute installed path, usually `~/.local/bin/mluva-shell` expanded to your actual home directory.
 
-The plugin does not install the app, request sudo, enable a global shortcut, or start Mluva automatically. F9 and Shift+F9 use your separately configured application shortcuts. A previously copied `mluva.dictation` folder must be backed up or removed through `omarchy plugin remove mluva.dictation` before adding this Git-managed copy; the installer refuses duplicate IDs.
+Plugin installation handles the shell integration. Install and start Mluva separately, and configure F9 and Shift+F9 through the application setup. A previously copied `mluva.dictation` folder must be backed up or removed through `omarchy plugin remove mluva.dictation` before adding this Git-managed copy; the installer refuses duplicate IDs.
 
 ## Use
 
