@@ -29,7 +29,9 @@ The widget needs Omarchy Quattro's shell, Quickshell 0.3+, Hyprland 0.55+ and th
 ## Use
 
 - Left-click the bar widget to start or stop dictation. Right-click cancels; middle-click opens the latest conversation.
-- The recorder opens without taking typing focus. Drag its status row to move it, resize it for more preview space, or focus it and press **Super+T** to tile. Floating mode stays above other windows and across workspaces.
+- The recorder opens without taking typing focus, with a bare recording light at top left and timer at top right. Drag its status row or transcript to move it, resize it for more preview space, or focus it and press **Super+T** to tile. Floating mode stays above other windows and across workspaces.
+- Mluva's Workspace settings and Ctrl+P offer lower-left, bottom and lower-right presets. The selected preset stays anchored as the window grows; manual dragging keeps control until another preset is chosen. An older app without placement settings uses bottom center.
+- The recording light uses a smooth inner/outer breathing pulse and honors Mluva's reduced-motion preferences.
 - After dictation, choose **Polish**, **Structure**, a saved prompt through **More**, **Copy** or **Open**. Rewrites preserve the original; partial replies cannot be copied.
 - The completed-note controls close after four idle seconds by default. Hover, focus, menus and rewriting pause the timer; configure the delay in Mluva's workspace settings.
 
@@ -53,4 +55,4 @@ Clipboard delivery is the standard workflow. Automatic insertion, Live rewrite a
 
 ## Source and license
 
-[Apache License 2.0](LICENSE). The QML and manifest are copied from [Mluva 8737791](https://github.com/1vecera/Mluva/tree/8737791e46838ee7a8d704d1796036a73ba33f06/linux/quickshell/mluva.dictation); [SOURCE.json](SOURCE.json) records the source commit, release tag when applicable and hashes. Improvements belong in [Mluva's plugin source](https://github.com/1vecera/Mluva/tree/main/linux/quickshell/mluva.dictation).
+[Apache License 2.0](LICENSE). The QML and manifest are copied from [Mluva 3790469](https://github.com/1vecera/Mluva/tree/379046938d8e66c04016dc06d18e1a3089c39c86/linux/quickshell/mluva.dictation); [SOURCE.json](SOURCE.json) records the source commit, release tag when applicable and hashes. Improvements belong in [Mluva's plugin source](https://github.com/1vecera/Mluva/tree/main/linux/quickshell/mluva.dictation).

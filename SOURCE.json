@@ -1,13 +1,13 @@
 {
   "repository": "https://github.com/1vecera/Mluva",
   "release": null,
-  "commit": "8737791e46838ee7a8d704d1796036a73ba33f06",
+  "commit": "379046938d8e66c04016dc06d18e1a3089c39c86",
   "directory": "linux/quickshell/mluva.dictation",
   "sha256": {
-    "manifest.json": "59849ec5e5469e248c232cd0515bbe2bd6119ba259ec5bb525a6d3682c6cc771",
-    "RecordingLight.qml": "e5309b3e3c1e506c430992acaedc8b798e3d894cd8376f5482107fbc2fb45b86",
-    "RecordingOverlay.qml": "f354969dcf4c41f695e265a29d6a750ed8ef16e67c1af184b02117f26c965647",
-    "Widget.qml": "2d8450436463d4be1de8a5d96feee7ed74aa2919a416793e2806588400aa6500",
+    "manifest.json": "7f9b71a1199d62d4174e9471856279f605c73241cb77e6bc92ce6a3a49102339",
+    "RecordingLight.qml": "96c3b485a41dac36db3f6921a478f1a40384a22063651f977430c1f6ea97a0ec",
+    "RecordingOverlay.qml": "e55dce4b71f30b3677fd7a8a60fac25b58ae27477f58249367d288022cd303b7",
+    "Widget.qml": "79be097c4fd61134679356e2faac3049ead078d50ca6198ecd8ad7ca17d9b8ae",
     "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
   }
 }
